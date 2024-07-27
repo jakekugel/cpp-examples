@@ -1,8 +1,11 @@
 // Calculate a factorial.
 //
-// Jake Kugel
+// gcc:
+//     g++ factorial.cpp -o factorial.out
 //
-// g++ factorial.cpp -o factorial.out
+// clang on Windows:
+//     clang++ -Wall -std=c++14 factorial.cpp -o factorial.exe
+//     .\factorial.exe
 
 #include<iostream>
 
